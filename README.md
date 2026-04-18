@@ -8,6 +8,8 @@
 
 > Authorization and access control: policy engines, standards, services, and learning resources.
 
+A curated compilation of tools and materials for modern authorization, with a strong focus on policy engines, standards, and practical, scalable implementations.
+
 ## Contents
 
 - [Policy Engines \& Frameworks](#policy-engines--frameworks)
@@ -19,6 +21,7 @@
 - [Articles \& Tutorials](#articles--tutorials)
 - [Videos \& Talks](#videos--talks)
 - [Books](#books)
+- [Contributing](#contributing)
 
 ## Policy Engines & Frameworks
 
@@ -52,8 +55,8 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 ### AuthZEN Implementations
 
 - [OPA AuthZEN Plugin](https://github.com/kanywst/opa-authzen-plugin) - OPA plugin that implements the OpenID AuthZEN Authorization API.
-- Cerbos - Has AuthZEN PDP API support. See [General Purpose](#general-purpose).
-- Topaz - Has AuthZEN evaluation API support. See [Zanzibar-Based](#zanzibar-based).
+- [Cerbos](https://cerbos.dev/) - Has AuthZEN PDP API support. See [General Purpose](#general-purpose).
+- [Topaz](https://www.topaz.sh/) - Has AuthZEN evaluation API support. See [Zanzibar-Based](#zanzibar-based).
 
 ### Language-Specific Libraries
 
@@ -90,7 +93,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 ### Policy Standards
 
 - [XACML](https://en.wikipedia.org/wiki/XACML) - XML-based standard for ABAC policies. Mature but verbose.
-- [ALFA](<https://en.wikipedia.org/wiki/ALFA_(authorization)>) - Human-readable DSL for writing XACML policies.
+- [ALFA](https://en.wikipedia.org/wiki/ALFA_\(authorization\)) - Human-readable DSL for writing XACML policies.
 
 ### Cloud Native
 
