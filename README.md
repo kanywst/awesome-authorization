@@ -35,7 +35,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 
 - [SpiceDB](https://github.com/authzed/spicedb) - Zanzibar-inspired database for fine-grained permissions by Authzed.
 - [OpenFGA](https://github.com/openfga/openfga) - Fine-grained authorization engine, originally from Auth0. CNCF Incubating project.
-- [Permify](https://github.com/Permify/permify) - Zanzibar-inspired authorization service. Acquired by FusionAuth in 2025, OSS continues.
+- [Permify](https://github.com/Permify/permify) - Zanzibar-inspired authorization service for fine-grained access control. Acquired by FusionAuth in 2025.
 - [Ory Keto](https://github.com/ory/keto) - Go implementation of Zanzibar. Part of the Ory ecosystem.
 - [Topaz](https://github.com/aserto-dev/topaz) - Combines Zanzibar model with OPA. By Aserto.
 - [Warrant](https://github.com/warrant-dev/warrant) - Fine-grained authorization engine, Zanzibar-inspired.
