@@ -34,8 +34,8 @@
 Inspired by Google Zanzibar, Google's global authorization system built around relationship-based access control.
 
 - [SpiceDB](https://github.com/authzed/spicedb) - Zanzibar-inspired database for fine-grained permissions by Authzed.
-- [OpenFGA](https://github.com/openfga/openfga) - Fine-grained authorization engine, originally from Auth0. Now under the Linux Foundation.
-- [Permify](https://github.com/Permify/permify) - Zanzibar-inspired authorization service for fine-grained access control.
+- [OpenFGA](https://github.com/openfga/openfga) - Fine-grained authorization engine, originally from Auth0. CNCF Incubating project.
+- [Permify](https://github.com/Permify/permify) - Zanzibar-inspired authorization service. Acquired by FusionAuth in 2025, OSS continues.
 - [Ory Keto](https://github.com/ory/keto) - Go implementation of Zanzibar. Part of the Ory ecosystem.
 - [Topaz](https://github.com/aserto-dev/topaz) - Combines Zanzibar model with OPA. By Aserto.
 - [Warrant](https://github.com/warrant-dev/warrant) - Fine-grained authorization engine, Zanzibar-inspired.
@@ -102,7 +102,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [Aserto](https://www.aserto.com/) - Cloud-native authz built on Topaz (OPA + Zanzibar).
 - [Oso Cloud](https://www.osohq.com/oso-cloud) - Managed authorization using the Polar policy language.
 - [Cerbos Hub](https://www.cerbos.dev/product-cerbos-hub) - Managed Cerbos policy deployment and testing.
-- [WorkOS FGA](https://workos.com/docs/fga) - Fine-grained authorization for B2B apps.
+- [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed Cedar-based authorization service by AWS.
 - [Axiomatics](https://www.axiomatics.com/) - Enterprise ABAC platform.
 - [PlainID](https://www.plainid.com/) - Policy-based access control for enterprises.
 
@@ -153,6 +153,7 @@ How companies do authorization at scale.
 - [Feature Flags and Authorization Abstract the Same Concept](https://ntietz.com/blog/feature-flags-and-authorization/) - Interesting comparison of the two.
 - [How To Structure Permissions In A SaaS App](https://heap.io/blog/structure-permissions-saas-app) - RBAC, ACLs, and more in SaaS.
 - [Why Google Zanzibar Shines at Building Authorization](https://workos.com/blog/google-zanzibar-authorization) - What makes Zanzibar a good fit for app authz.
+- [MCP and Zero Trust: Securing AI Agents With Identity and Policy](https://www.cerbos.dev/blog/mcp-and-zero-trust-securing-ai-agents-with-identity-and-policy) - Applying authz to AI agents via MCP.
 
 ## Videos & Talks
 
