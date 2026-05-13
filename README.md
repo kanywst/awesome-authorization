@@ -133,6 +133,8 @@ How companies do authorization at scale.
 - [Lyft Airflow DAG-Level Access](https://eng.lyft.com/securing-apache-airflow-ui-with-dag-level-access-a7bc649a2821) - DAG-level access control on Airflow.
 - [AppsFlyer Microservices Authorization](https://medium.com/appsflyerengineering/authorization-solution-for-microservices-architecture-a2ac0c3c510b) - Authz patterns in microservices.
 - [Ubicloud ABAC Learnings](https://www.ubicloud.com/blog/learnings-from-building-a-simple-authorization-system-abac) - Lessons from building a simple ABAC system.
+- [Slack Role Management](https://slack.engineering/role-management-at-slack/) - Slack's transition from coarse roles to granular RBAC with a dedicated Go permissions service.
+- [Notion: Security in Custom Agents](https://www.notion.com/blog/how-we-built-security-into-custom-agents) - Permission model for AI agents acting on behalf of users in shared workspaces.
 
 ## Security
 
