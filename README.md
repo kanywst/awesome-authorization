@@ -28,7 +28,7 @@
 - [Cerbos](https://cerbos.dev/) - Self-hosted authorization layer. Policies are defined in YAML/JSON with built-in testing support.
 - [Oso](https://www.osohq.com/) - Comes with Polar, a declarative policy language for application-level authorization.
 - [Open Policy Administration Layer (OPAL)](https://github.com/permitio/opal) - Keeps policies and data in sync across policy engines in real time.
-- [Pomerium](https://github.com/pomerium/pomerium) - Identity-aware reverse proxy that enforces context-aware authorization policies on every request.
+- [Pomerium](https://www.pomerium.com/) - Identity-aware reverse proxy that enforces context-aware authorization policies.
 
 ### Zanzibar-Based
 
