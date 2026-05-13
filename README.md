@@ -154,6 +154,7 @@ How companies do authorization at scale.
 - [How To Structure Permissions In A SaaS App](https://heap.io/blog/structure-permissions-saas-app) - RBAC, ACLs, and more in SaaS.
 - [Why Google Zanzibar Shines at Building Authorization](https://workos.com/blog/google-zanzibar-authorization) - What makes Zanzibar a good fit for app authz.
 - [MCP and Zero Trust: Securing AI Agents With Identity and Policy](https://www.cerbos.dev/blog/mcp-and-zero-trust-securing-ai-agents-with-identity-and-policy) - Applying authz to AI agents via MCP.
+- [Multi-Tenant Permissions Done Right](https://workos.com/blog/multi-tenant-permissions-slack-notion-linear) - Patterns extracted from how Slack, Notion, and Linear handle role explosion at scale.
 
 ## Videos & Talks
 
