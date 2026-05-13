@@ -103,7 +103,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [Oso Cloud](https://www.osohq.com/oso-cloud) - Managed authorization using the Polar policy language.
 - [Cerbos Hub](https://www.cerbos.dev/product-cerbos-hub) - Managed Cerbos policy deployment and testing.
 - [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed Cedar-based authorization service by AWS.
-- [WorkOS FGA](https://workos.com/fine-grained-authorization) - Zanzibar-based FGA service (originally Warrant, acquired by WorkOS in 2024).
+- [WorkOS FGA](https://workos.com/fine-grained-authorization) - Zanzibar-based FGA service built on the Warrant engine.
 - [Axiomatics](https://www.axiomatics.com/) - Enterprise ABAC platform.
 - [PlainID](https://www.plainid.com/) - Policy-based access control for enterprises.
 
