@@ -92,7 +92,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 
 ### Cloud Native
 
-- [CNCF TAG-Security](https://tag-security.cncf.io/) - CNCF Technical Advisory Group covering authorization, policy, and security. (GitHub repo archived Dec 2025; website is the current home.)
+- [CNCF TAG-Security](https://tag-security.cncf.io/) - CNCF Technical Advisory Group covering authorization, policy, and security. GitHub repo archived Dec 2025.
 
 ## Authorization as a Service
 
