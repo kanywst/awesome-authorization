@@ -78,6 +78,10 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [UMA 2.0 (User-Managed Access)](https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html) - OAuth-based protocol enabling users to control access to their resources.
 - [GNAP](https://datatracker.ietf.org/doc/html/draft-ietf-gnap-core-protocol) - Grant Negotiation and Authorization Protocol. Next-gen successor to OAuth.
 
+### Agent & AI Authorization
+
+- [MCP Authorization](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) - OAuth 2.1-based authorization model in the Model Context Protocol. Defines how AI clients obtain and present tokens to MCP servers.
+
 ### Workload Identity
 
 - [SPIFFE](https://spiffe.io/) - Secure Production Identity Framework for Everyone. Provides cryptographic identity to workloads (CNCF).
