@@ -26,7 +26,6 @@
 - [Cedar](https://www.cedarpolicy.com/) - Policy language and engine by AWS. Designed to be analyzable and expressive.
 - [Casbin](https://casbin.org/) - Supports ACL, RBAC, ABAC, etc. Has adapters for many languages and storage backends.
 - [Cerbos](https://cerbos.dev/) - Self-hosted authorization layer. Policies are defined in YAML/JSON with built-in testing support.
-- [Oso](https://www.osohq.com/) - Comes with Polar, a declarative policy language for application-level authorization.
 - [Open Policy Administration Layer (OPAL)](https://github.com/permitio/opal) - Keeps policies and data in sync across policy engines in real time.
 
 ### Zanzibar-Based
