@@ -49,7 +49,6 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 
 ### AuthZEN Implementations
 
-- [OPA AuthZEN Plugin](https://github.com/kanywst/opa-authzen-plugin) - OPA plugin that implements the OpenID AuthZEN Authorization API.
 - Cerbos - Has AuthZEN PDP API support. See [General Purpose](#general-purpose).
 - [Topaz](https://www.topaz.sh/) - Has AuthZEN evaluation API support. See [Zanzibar-Based](#zanzibar-based).
 
