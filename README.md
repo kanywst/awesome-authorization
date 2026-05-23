@@ -147,7 +147,7 @@ How companies do authorization at scale.
 - [Insecure Direct Object References (IDOR)](https://portswigger.net/web-security/access-control/idor) - One of the most common access control vulnerabilities.
 - [CISA/NSA IDOR Advisory](https://www.theregister.com/2023/07/29/cisa_nsa_idor_australia/) - Joint advisory on IDOR prevalence.
 - [Building a Modern Zero Trust Strategy](https://thenewstack.io/ebooks/security/trust-no-one-and-automate-almost-everything-building-a-modern-zero-trust-strategy) - Zero trust overview by The New Stack.
-- [OWASP Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Peer-reviewed framework for autonomous AI agents, mapped to the OWASP Non-Human Identity Top 10. Calls out over-privileged NHIs and delegated-privilege abuse as primary risks.
+- [OWASP Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Framework for autonomous AI agents focusing on over-privileged non-human identities and delegated-privilege abuse.
 
 ## Articles & Tutorials
 
