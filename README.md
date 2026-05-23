@@ -51,6 +51,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 
 - Cerbos - Has AuthZEN PDP API support. See [General Purpose](#general-purpose).
 - [Topaz](https://www.topaz.sh/) - Has AuthZEN evaluation API support. See [Zanzibar-Based](#zanzibar-based).
+- [Keycloak](https://www.keycloak.org/2026/05/authzen-as-experimental-feature) - Ships experimental AuthZEN PDP support as of Keycloak 26.7, exposing the Evaluations API and `.well-known/authzen-configuration`.
 
 ### Language-Specific Libraries
 
