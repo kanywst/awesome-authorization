@@ -160,7 +160,7 @@ How companies do authorization at scale.
 - [Why Google Zanzibar Shines at Building Authorization](https://workos.com/blog/google-zanzibar-authorization) - What makes Zanzibar a good fit for app authz.
 - [MCP and Zero Trust: Securing AI Agents With Identity and Policy](https://www.cerbos.dev/blog/mcp-and-zero-trust-securing-ai-agents-with-identity-and-policy) - Applying authz to AI agents via MCP.
 - [Multi-Tenant Permissions Done Right](https://workos.com/blog/multi-tenant-permissions-slack-notion-linear) - Patterns extracted from how Slack, Notion, and Linear handle role explosion at scale.
-- [Cloudflare - Managed OAuth for Access](https://blog.cloudflare.com/managed-oauth-for-access/) - Uses RFC 7591/7636/9728 to make internal apps agent-ready with per-user attribution and avoid the confused-deputy trap.
+- [Cloudflare - Managed OAuth for Access](https://blog.cloudflare.com/managed-oauth-for-access/) - Uses RFCs 7591, 7636, and 9728 to make internal apps agent-ready with per-user attribution instead of shared service accounts, avoiding the confused deputy problem.
 
 ## Videos & Talks
 
