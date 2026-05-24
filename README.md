@@ -145,10 +145,10 @@ How companies do authorization at scale.
 - [OWASP Top 10 - Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) - #1 web security risk (2021).
 - [OWASP Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html) - Authz best practices.
 - [OWASP API Security Top 10](https://owasp.org/www-project-api-security/) - Top API security risks, including broken authz.
+- [OWASP Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Framework for autonomous AI agents focusing on overprivileged non-human identities (NHI) and delegated privilege abuse.
 - [Insecure Direct Object References (IDOR)](https://portswigger.net/web-security/access-control/idor) - One of the most common access control vulnerabilities.
 - [CISA/NSA IDOR Advisory](https://www.theregister.com/2023/07/29/cisa_nsa_idor_australia/) - Joint advisory on IDOR prevalence.
 - [Building a Modern Zero Trust Strategy](https://thenewstack.io/ebooks/security/trust-no-one-and-automate-almost-everything-building-a-modern-zero-trust-strategy) - Zero trust overview by The New Stack.
-- [OWASP Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Framework for autonomous AI agents focusing on over-privileged non-human identities (NHI) and delegated-privilege abuse.
 
 ## Articles & Tutorials
 
