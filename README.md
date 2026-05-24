@@ -68,7 +68,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 
 ### OpenID AuthZEN
 
-- [AuthZEN Specification](https://openid.net/wg/authzen/) - OpenID working group standardizing a REST API for authorization decisions (PDP/PEP). Authorization API 1.0 was approved as a [Final Specification](https://openid.net/authorization-api-1-0-final-specification-approved/) on 2026-03-11 (vote: 81–1).
+- [AuthZEN Specification](https://openid.net/wg/authzen/) - OpenID standard for a REST API for authorization decisions (PDP/PEP). Approved as a [Final Specification](https://openid.net/authorization-api-1-0-final-specification-approved/) on 2026-03-11.
 - [AuthZEN Interop](https://github.com/openid/authzen) - Interoperability tests for AuthZEN implementations.
 
 ### Identity & Federation
