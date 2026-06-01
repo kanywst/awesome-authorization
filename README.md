@@ -89,7 +89,6 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 
 - [SPIFFE](https://spiffe.io/) - Secure Production Identity Framework for Everyone. Provides cryptographic identity to workloads (CNCF).
 - [SPIRE](https://spiffe.io/docs/latest/spire-about/) - Production-ready SPIFFE runtime.
-- [SPIFFE/SPIRE Documentation](https://spiffe.io/docs/) - Official docs.
 
 ### Policy Standards
 
