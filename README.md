@@ -96,10 +96,6 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [XACML](https://en.wikipedia.org/wiki/XACML) - XML-based standard for ABAC policies. Mature but verbose.
 - [ALFA](https://en.wikipedia.org/wiki/Abbreviated_Language_for_Authorization) - Human-readable DSL for writing XACML policies.
 
-### Cloud Native
-
-- [CNCF TAG-Security](https://tag-security.cncf.io/) - CNCF Technical Advisory Group covering authorization, policy, and security. GitHub repo archived Dec 2025.
-
 ## Authorization as a Service
 
 - [Auth0 Fine Grained Authorization](https://auth0.com/fine-grained-authorization) - Managed OpenFGA by Auth0/Okta.
