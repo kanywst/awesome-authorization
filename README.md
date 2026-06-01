@@ -78,7 +78,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [OpenID Connect (OIDC)](https://openid.net/developers/how-connect-works/) - Identity layer on top of OAuth 2.0.
 - [UMA 2.0 (User-Managed Access)](https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html) - OAuth-based protocol enabling users to control access to their resources.
 - [GNAP](https://datatracker.ietf.org/doc/html/draft-ietf-gnap-core-protocol) - Grant Negotiation and Authorization Protocol. Next-gen successor to OAuth.
-- [OAuth Transaction Tokens (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-transaction-tokens) - Short-lived signed JWTs that preserve user, workload, and authorization context across multi-service call chains. In IETF OAuth WG Last Call as of March 2026.
+- [OAuth Transaction Tokens (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-transaction-tokens) - Short-lived signed JWTs that preserve user, workload, and authorization context across multi-service call chains. IETF OAuth WG draft.
 
 ### Agent & AI Authorization
 
