@@ -28,7 +28,7 @@
 - [Cerbos](https://cerbos.dev/) - Self-hosted authorization layer. Policies are defined in YAML/JSON with built-in testing support.
 - [Open Policy Administration Layer (OPAL)](https://github.com/permitio/opal) - Keeps policies and data in sync across policy engines in real time.
 - [Pomerium](https://www.pomerium.com/) - Identity-aware reverse proxy that enforces context-aware authorization policies.
-- [Biscuit](https://www.biscuitsec.org/) - Capability-based authorization tokens with offline verification and Datalog-based attenuation. Open spec with implementations in Rust, Go, Java, and more.
+- [Biscuit](https://www.biscuitsec.org/) - Capability-based authorization token format with Datalog policies, offline verification, and bearer-side attenuation.
 
 ### Zanzibar-Based
 
