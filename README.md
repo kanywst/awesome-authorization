@@ -39,7 +39,6 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [Permify](https://github.com/Permify/permify) - Zanzibar-inspired authorization service for fine-grained access control. Acquired by FusionAuth in 2025.
 - [Ory Keto](https://github.com/ory/keto) - Go implementation of Zanzibar. Part of the Ory ecosystem.
 - [Topaz](https://github.com/aserto-dev/topaz) - Open-source authorizer combining the Zanzibar model with OPA.
-- [Warrant](https://github.com/warrant-dev/warrant) - Fine-grained authorization engine, Zanzibar-inspired.
 
 ### Kubernetes-Native
 
