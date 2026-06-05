@@ -80,6 +80,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [UMA 2.0 (User-Managed Access)](https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html) - OAuth-based protocol enabling users to control access to their resources.
 - [GNAP](https://datatracker.ietf.org/doc/html/draft-ietf-gnap-core-protocol) - Grant Negotiation and Authorization Protocol. Next-gen successor to OAuth.
 - [OAuth Transaction Tokens (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-transaction-tokens) - Short-lived signed JWTs that preserve user, workload, and authorization context across multi-service call chains. IETF OAuth WG draft.
+- [OAuth Identity Chaining Across Domains (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-identity-chaining) - Preserves identity and authorization across OAuth trust domains by combining token exchange (RFC 8693) and JWT grants (RFC 7523). IETF OAuth WG draft.
 
 ### Agent & AI Authorization
 
