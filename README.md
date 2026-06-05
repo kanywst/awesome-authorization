@@ -28,6 +28,7 @@
 - [Cerbos](https://cerbos.dev/) - Self-hosted authorization layer. Policies are defined in YAML/JSON with built-in testing support.
 - [Open Policy Administration Layer (OPAL)](https://github.com/permitio/opal) - Keeps policies and data in sync across policy engines in real time.
 - [Pomerium](https://www.pomerium.com/) - Identity-aware reverse proxy that enforces context-aware authorization policies.
+- [Biscuit](https://www.biscuitsec.org/) - Capability-based authorization token format with Datalog policies, offline verification, and bearer-side attenuation.
 
 ### Zanzibar-Based
 
@@ -78,6 +79,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [OpenID Connect (OIDC)](https://openid.net/developers/how-connect-works/) - Identity layer on top of OAuth 2.0.
 - [UMA 2.0 (User-Managed Access)](https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html) - OAuth-based protocol enabling users to control access to their resources.
 - [GNAP](https://datatracker.ietf.org/doc/html/draft-ietf-gnap-core-protocol) - Grant Negotiation and Authorization Protocol. Next-gen successor to OAuth.
+- [OAuth Transaction Tokens (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-transaction-tokens) - Short-lived signed JWTs that preserve user, workload, and authorization context across multi-service call chains. IETF OAuth WG draft.
 - [OAuth Identity Chaining Across Domains (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-identity-chaining) - Preserves identity and authorization across OAuth trust domains by combining token exchange (RFC 8693) and JWT grants (RFC 7523). IETF OAuth WG draft.
 
 ### Agent & AI Authorization
@@ -88,7 +90,6 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 
 - [SPIFFE](https://spiffe.io/) - Secure Production Identity Framework for Everyone. Provides cryptographic identity to workloads (CNCF).
 - [SPIRE](https://spiffe.io/docs/latest/spire-about/) - Production-ready SPIFFE runtime.
-- [SPIFFE/SPIRE Documentation](https://spiffe.io/docs/) - Official docs.
 
 ### Policy Standards
 
@@ -135,7 +136,6 @@ How companies do authorization at scale.
 - [Reddit Advertising Authorization](https://www.reddit.com/r/RedditEng/comments/13vttm8/evolving_authorization_for_our_advertising/) - Fine-grained authz for their ad platform.
 - [Figma Custom Permissions DSL](https://www.figma.com/blog/how-we-rolled-out-our-own-permissions-dsl-at-figma/) - Figma built their own DSL for permissions.
 - [Intuit AuthZ](https://medium.com/intuit-engineering/authz-intuits-unified-dynamic-authorization-system-bea554d18f91) - XACML-based unified authz system.
-- [Lyft Airflow DAG-Level Access](https://eng.lyft.com/securing-apache-airflow-ui-with-dag-level-access-a7bc649a2821) - DAG-level access control on Airflow.
 - [AppsFlyer Microservices Authorization](https://medium.com/appsflyerengineering/authorization-solution-for-microservices-architecture-a2ac0c3c510b) - Authz patterns in microservices.
 - [Ubicloud ABAC Learnings](https://www.ubicloud.com/blog/learnings-from-building-a-simple-authorization-system-abac) - Lessons from building a simple ABAC system.
 - [Slack Role Management](https://slack.engineering/role-management-at-slack/) - Slack's transition from coarse roles to granular RBAC with a dedicated Go permissions service.
