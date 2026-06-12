@@ -124,7 +124,6 @@ How companies do authorization at scale.
 - [Google Zanzibar (Paper)](https://research.google/pubs/pub48190/) - Google's global, consistent authorization system.
 - [Airbnb Himeji](https://medium.com/airbnb-engineering/himeji-a-scalable-centralized-system-for-authorization-at-airbnb-341664924574) - Centralized authz system, Zanzibar-based.
 - [Netflix ABAC on SpiceDB](https://netflixtechblog.com/abac-on-spicedb-enabling-netflixs-complex-identity-types-c118f374fa89) - How Netflix handles complex identity types with SpiceDB.
-- [How Netflix Is Solving Authorization Across Their Cloud](https://www.youtube.com/watch?v=R6tUNpRpdnY) - Talk on Netflix's cloud authz.
 - [Carta AuthZ](https://medium.com/building-carta/authz-cartas-highly-scalable-permissions-system-782a7f2c840f) - Scalable permissions system, also Zanzibar-based.
 - [Uber ABAC](https://www.uber.com/blog/attribute-based-access-control-at-uber/) - Centralized ABAC across microservices.
 - [LinkedIn Authorization at Scale](https://engineering.linkedin.com/blog/2019/03/authorization-at-linkedins-scale) - High-performance authz for microservices.
