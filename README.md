@@ -138,7 +138,7 @@ How companies do authorization at scale.
 
 ## Security
 
-- [OWASP Top 10 - Broken Access Control](https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/) - Ranked #1 in the OWASP Top 10:2025, found in 100% of tested applications.
+- [OWASP Top 10 - Broken Access Control](https://owasp.org/Top10/2025/A01_2025-Broken_Access_Control/) - Ranked #1 in the OWASP Top 10: 2025, found in 100% of tested applications.
 - [OWASP Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html) - Authz best practices.
 - [OWASP API Security Top 10](https://owasp.org/www-project-api-security/) - Top API security risks, including broken authz.
 - [OWASP Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Framework for autonomous AI agents focusing on overprivileged non-human identities (NHI) and delegated privilege abuse.
