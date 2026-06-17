@@ -1,0 +1,19 @@
+# Configuration for the weekly link-check workflow (lychee).
+#
+# Several hosts linked from README.md block automated clients with anti-bot
+# or login walls and return 403/406/429 to non-browser requests even though
+# the page is live. Without this config the scheduled check reports those as
+# dead links, burying any genuine link rot in noise. We present a browser
+# User-Agent and treat anti-bot / rate-limit responses as success.
+
+# Some hosts (e.g. uber.com) return 406/403 to non-browser User-Agents.
+user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0"
+
+# Give slow hosts time and retry transient failures.
+timeout = 20
+max_retries = 2
+retry_wait_time = 2
+
+# Treat anti-bot (403/406) and rate-limit (429) responses as reachable.
+# Real 404s on these hosts are still reported.
+accept = ["200..=299", "403", "406", "429"]
