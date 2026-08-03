@@ -83,7 +83,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 
 ### Agent & AI Authorization
 
-- [MCP Authorization](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) - OAuth 2.1-based authorization model in the Model Context Protocol. Defines how AI clients obtain and present tokens to MCP servers.
+- [MCP Authorization](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization) - OAuth 2.1-based authorization model in the Model Context Protocol. Defines how AI clients obtain and present tokens to MCP servers.
 
 ### Workload Identity
 
