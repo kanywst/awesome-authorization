@@ -1,0 +1,100 @@
+name: Claude review
+
+# CI answers "does it build and do the tests pass". This asks the question no
+# script here can. It reviews, it does not gate: nothing here is a required
+# check.
+#
+# The action refuses to run when this file differs from the copy on the default
+# branch, so a pull request cannot rewrite its own reviewer. The cost is that
+# any change to this file, including the one that added it, goes unreviewed by
+# Claude until it is merged.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions: {}
+
+# One review per pull request. A rapid re-push cancels the run it superseded
+# rather than paying for a review of a diff that no longer exists.
+concurrency:
+  group: claude-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    # A pull request from a fork gets no secrets, so the job would fail on
+    # authentication rather than say anything useful. Drafts are skipped until
+    # they are marked ready, which is what the ready_for_review trigger is for.
+    if: >-
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      pull-requests: write
+      # Required by the action's default GitHub App authentication.
+      id-token: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+
+      # Without the secret the action exits successfully having reviewed
+      # nothing, which is worse than failing: the check goes green and the
+      # pull request looks reviewed. Fail here instead, where the reason is
+      # legible.
+      - name: Require the token
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+            echo "::error::CLAUDE_CODE_OAUTH_TOKEN is not set. Generate one with 'claude setup-token', then: gh secret set CLAUDE_CODE_OAUTH_TOKEN"
+            exit 1
+          fi
+
+      - uses: anthropics/claude-code-action@6b082c41935b4c8a3b8b0ef85ba4ba4d9eeb8975 # v1
+        with:
+          # A subscription token, not an API key: runs against the Claude plan
+          # instead of API credits. Generate it with `claude setup-token`.
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            REPO: ${{ github.repository }}
+            PR: ${{ github.event.pull_request.number }}
+
+            This is a curated awesome list of authorization and access control tools,
+            standards and resources. It is being kept ready for submission to
+            sindresorhus/awesome, which has a strict checklist.
+
+            Do not repeat what CI already does. awesome-lint and the link check run on this
+            PR already, so formatting, ordering and dead links are covered.
+
+            Look for what only a reader can catch:
+
+            1. The curation bar. An awesome list is the best of a category, not everything
+               in it. An entry that is unmaintained, archived, undocumented, or a thin
+               wrapper around something already listed weakens the list.
+
+            2. Descriptions that do not describe. Each entry needs a short objective
+               sentence about the project, starting with a capital and ending with a period,
+               not a tagline, not marketing, and not a restatement of the name.
+
+            3. Category fit. An entry filed under the wrong heading is invisible to the
+               person who needed it. Zanzibar-derived, policy engine, standard, and
+               authorization as a service are different things.
+
+            4. Duplicates and drift. The same project under two names, or a project that has
+               been renamed, relicensed or absorbed since it was added.
+
+            5. Anything that would fail the upstream checklist: a heading rename that breaks
+               the Contents section, a Contributing or Footnotes entry appearing in the
+               table of contents, or a licence or badge change.
+
+            Post findings as inline comments on the lines they concern. Use one
+            top-level comment for the summary. Be specific and cite
+            `file:line`. If the diff is clean against all of the above, say so
+            in one line rather than manufacturing nits.
+
+          claude_args: |
+            --allowedTools "mcp__github_inline_comment__create_inline_comment,Bash(gh pr comment:*),Bash(gh pr diff:*),Bash(gh pr view:*)"
