@@ -160,6 +160,7 @@ How companies do authorization at scale.
 
 ## Videos & Talks
 
+- [BSIdes Basingstoke 2025 - IAM very confused - A Friendly Guide to Cloud and Modern AuthZ](https://tomcope.com/talk/2025-06-25-bsides-basingstoke-2025/) - 30min Talk providing a summary of modern IAM Frameworks and Projects
 - [Hashicorp - Microservice Authentication and Authorization (2019)](https://www.youtube.com/watch?v=ZjPF8yZ83Wo) - Authn/authz patterns for microservices.
 - [Deloitte - Zero Trust with ABAC (2022)](https://www.youtube.com/watch?v=-XFn85HtVDA) - ABAC in zero trust architecture.
 - [Zanzibar at @Scale 2019](https://www.facebook.com/atscaleevents/videos/scale-2019-zanzibar-googles-consistent-global-authorization-system/524366141717632/) - Google presenting Zanzibar.
