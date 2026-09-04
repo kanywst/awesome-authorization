@@ -111,7 +111,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 
 - [RBAC](https://csrc.nist.gov/projects/role-based-access-control) - Role-Based Access Control. Permissions are assigned to roles, roles to users.
 - [ABAC](https://csrc.nist.gov/pubs/sp/800/162/upd2/final) - Attribute-Based Access Control. Decisions based on attributes of users, resources, and context.
-- [ReBAC](https://pages.cpsc.ucalgary.ca/~pwlfong/Pub/codaspy2011.pdf) - Relationship-Based Access Control. Access depends on relationships between entities. Fong's foundational paper; see also Zanzibar.
+- [ReBAC](https://doi.org/10.1145/1943513.1943539) - Relationship-Based Access Control. Access depends on relationships between entities; see Zanzibar.
 - [PBAC](https://csrc.nist.gov/glossary/term/policy_based_access_control) - Policy-Based Access Control. Policies evaluate access requests dynamically.
 - [DAC](https://csrc.nist.gov/glossary/term/discretionary_access_control) - Discretionary Access Control. Resource owners decide who gets access.
 - [MAC](https://csrc.nist.gov/glossary/term/mandatory_access_control) - Mandatory Access Control. System-enforced, based on security labels.
