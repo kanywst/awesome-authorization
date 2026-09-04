@@ -1,10 +1,12 @@
 # Awesome Authorization [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <div align="center">
-  <img src="media/logo.svg" width="400" alt="Awesome Authorization">
+
+[![Awesome Authorization](media/logo.svg)](https://github.com/kanywst/awesome-authorization)
+
 </div>
 
-> Authorization and access control: policy engines, standards, services, and learning resources.
+> Determining what an authenticated user or service is permitted to do.
 
 ## Contents
 
