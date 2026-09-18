@@ -102,7 +102,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [Auth0 Fine Grained Authorization](https://auth0.com/fine-grained-authorization) - Managed OpenFGA by Auth0/Okta.
 - [Authzed](https://authzed.com/) - Managed SpiceDB. Zanzibar-style fine-grained permissions.
 - [Permit.io](https://www.permit.io/) - Full-stack authorization with a policy management UI and OPAL.
-- [Oso Cloud](https://www.osohq.com/oso-cloud) - Managed authorization using the Polar policy language.
+- [Oso](https://www.osohq.com/oso-for-apps) - Managed authorization using the Polar policy language.
 - [Cerbos Hub](https://www.cerbos.dev/product-cerbos-hub) - Managed Cerbos policy deployment and testing.
 - [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed Cedar-based authorization service by AWS.
 - [WorkOS FGA](https://workos.com/docs/fga) - Fine-grained authorization built on the Warrant engine.
