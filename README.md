@@ -154,7 +154,7 @@ How companies do authorization at scale.
 - [Permissions Systems: Category Notes](https://kojo.blog/permissions-sytems/) - Landscape overview of permissions systems.
 - [What Do Authentication and Authorization Mean in Zero Trust?](https://thenewstack.io/what-do-authentication-and-authorization-mean-in-zero-trust/) - Authn vs authz in zero trust.
 - [Feature Flags and Authorization Abstract the Same Concept](https://ntietz.com/blog/feature-flags-and-authorization/) - Interesting comparison of the two.
-- [How To Structure Permissions In A SaaS App](https://heap.io/blog/structure-permissions-saas-app) - RBAC, ACLs, and more in SaaS.
+- [How To Structure Permissions In A SaaS App](https://contentsquare.com/blog/structure-permissions-saas-app/) - RBAC, ACLs, and more in SaaS.
 - [Why Google Zanzibar Shines at Building Authorization](https://workos.com/blog/google-zanzibar-authorization) - What makes Zanzibar a good fit for app authz.
 - [MCP and Zero Trust: Securing AI Agents With Identity and Policy](https://www.cerbos.dev/blog/mcp-and-zero-trust-securing-ai-agents-with-identity-and-policy) - Applying authz to AI agents via MCP.
 - [Multi-Tenant Permissions Done Right](https://workos.com/blog/multi-tenant-permissions-slack-notion-linear) - Patterns extracted from how Slack, Notion, and Linear handle role explosion at scale.
