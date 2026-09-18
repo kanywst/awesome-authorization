@@ -13,4 +13,7 @@ jobs:
       - uses: lycheeverse/lychee-action@v2
         with:
           args: --config lychee.toml --verbose --no-progress README.md
-          fail: false
+          # Fail the job on dead links. lychee.toml already presents a browser
+          # User-Agent, accepts 403/406/429 and retries, so a red run means real
+          # link rot rather than anti-bot noise.
+          fail: true
