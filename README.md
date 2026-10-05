@@ -64,7 +64,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [CASL](https://casl.js.org/) - Isomorphic JavaScript/TypeScript authorization supporting ABAC.
 - [Authzed Client Libraries](https://github.com/authzed) - Official SpiceDB clients for Go, Python, Java, Ruby, and Node.js.
 - [django-rules](https://github.com/dfunckt/django-rules) - Object-level permissions for Django using composable predicates.
-- [Laravel Authorization](https://laravel.com/docs/authorization) - Gates and policies for authorization in Laravel.
+- [Laravel Authorization](https://laravel.com/framework/docs/authorization) - Gates and policies for authorization in Laravel.
 
 ## Standards & Specifications
 
