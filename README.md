@@ -76,7 +76,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 ### Identity & Federation
 
 - [OAuth 2.0 (RFC 6749)](https://datatracker.ietf.org/doc/html/rfc6749) - The standard framework for delegated authorization.
-- [OAuth 2.1 (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1-11) - Consolidates OAuth 2.0 and its best practice RFCs into one spec.
+- [OAuth 2.1 (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-v2-1) - Consolidates OAuth 2.0 and its best practice RFCs into one spec.
 - [OpenID Connect (OIDC)](https://openid.net/developers/how-connect-works/) - Identity layer on top of OAuth 2.0.
 - [UMA 2.0 (User-Managed Access)](https://docs.kantarainitiative.org/uma/wg/rec-oauth-uma-grant-2.0.html) - OAuth-based protocol enabling users to control access to their resources.
 - [GNAP](https://datatracker.ietf.org/doc/html/draft-ietf-gnap-core-protocol) - Grant Negotiation and Authorization Protocol. Next-gen successor to OAuth.
