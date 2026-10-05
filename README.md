@@ -136,6 +136,7 @@ How companies do authorization at scale.
 - [Ubicloud ABAC Learnings](https://www.ubicloud.com/blog/learnings-from-building-a-simple-authorization-system-abac) - Lessons from building a simple ABAC system.
 - [Slack Role Management](https://slack.engineering/role-management-at-slack/) - Slack's transition from coarse roles to granular RBAC with a dedicated Go permissions service.
 - [Notion Custom Agent Security](https://www.notion.com/blog/how-we-built-security-into-custom-agents) - Permission model for AI agents acting on behalf of users in shared workspaces.
+- [Infisical Folder-Based RBAC](https://infisical.com/blog/folder-based-rbac) - Why Infisical layered folder grants onto its CASL-based roles instead of migrating to Zanzibar, including cache invalidation.
 
 ## Security
 
