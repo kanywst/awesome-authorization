@@ -49,6 +49,10 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [Kubewarden](https://www.kubewarden.io/) - Policy engine for Kubernetes using WebAssembly.
 - [jsPolicy](https://www.jspolicy.com/) - Write Kubernetes policies in JavaScript/TypeScript.
 
+### Data Platforms
+
+- [Apache Ranger](https://ranger.apache.org/) - Centralized authorization and auditing for data platforms such as HDFS, Hive, Trino, and Kafka, with row filtering and column masking.
+
 ### AuthZEN Implementations
 
 - Cerbos - Has AuthZEN PDP API support. See [General Purpose](#general-purpose).
