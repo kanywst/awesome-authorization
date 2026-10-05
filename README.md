@@ -99,7 +99,6 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 ### Policy Standards
 
 - [XACML](https://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html) - XML-based standard for ABAC policies. Mature but verbose.
-- [ALFA](https://en.wikipedia.org/wiki/Abbreviated_Language_for_Authorization) - Human-readable DSL for writing XACML policies.
 
 ## Authorization as a Service
 
