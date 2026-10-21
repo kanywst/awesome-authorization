@@ -86,6 +86,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [GNAP (RFC 9635)](https://datatracker.ietf.org/doc/html/rfc9635) - Grant Negotiation and Authorization Protocol. A ground-up alternative to OAuth 2.0.
 - [OAuth Transaction Tokens (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-transaction-tokens) - Short-lived signed JWTs that preserve user, workload, and authorization context across multi-service call chains. IETF OAuth WG draft.
 - [OAuth Identity Chaining Across Domains (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-identity-chaining) - Preserves identity and authorization across OAuth trust domains by combining token exchange (RFC 8693) and JWT grants (RFC 7523). IETF OAuth WG draft.
+- [OAuth Identity Assertion JWT Authorization Grant (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-identity-assertion-authz-grant) - Enterprise IdP evaluates policy and issues a JWT grant (ID-JAG) that a client exchanges for a scoped access token at another app. Basis of MCP Enterprise-Managed Authorization. IETF OAuth WG draft.
 
 ### Agent & AI Authorization
 
