@@ -64,7 +64,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [Spring Security](https://spring.io/projects/spring-security) - Security framework for Java/Spring. Handles both authn and authz.
 - [Apache Shiro](https://shiro.apache.org/) - Java security framework covering authn, authz, crypto, and session management.
 - [Pundit](https://github.com/varvet/pundit) - Simple authorization for Ruby on Rails using plain Ruby objects.
-- [CanCanCan](https://github.com/CanCanCommunity/cancancan) - Ruby on Rails authorization. Define what users can and cannot do.
+- [CanCanCan](https://github.com/coorasse/cancancan) - Ruby on Rails authorization. Define what users can and cannot do.
 - [CASL](https://casl.js.org/) - Isomorphic JavaScript/TypeScript authorization supporting ABAC.
 - [Authzed Client Libraries](https://github.com/authzed) - Official SpiceDB clients for Go, Python, Java, Ruby, and Node.js.
 - [django-rules](https://github.com/dfunckt/django-rules) - Object-level permissions for Django using composable predicates.
