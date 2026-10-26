@@ -112,6 +112,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [WorkOS FGA](https://workos.com/docs/fga) - Fine-grained authorization built on the Warrant engine.
 - [Axiomatics](https://www.axiomatics.com/) - Enterprise ABAC platform.
 - [PlainID](https://www.plainid.com/) - Policy-based access control for enterprises.
+- [Speakeasy control plane](https://www.speakeasy.com/) - Managed MCP gateway that applies identity-provider roles to server and tool access, with per-action policies and audit logs.
 
 ## Access Control Models
 
