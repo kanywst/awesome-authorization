@@ -176,6 +176,7 @@ How companies do authorization at scale.
 
 - [Solving Identity Management in Modern Applications](https://link.springer.com/book/10.1007/978-1-4842-8261-8) - Authn, authz, and identity management patterns (Apress).
 - [OAuth 2 in Action](https://www.manning.com/books/oauth-2-in-action) - Deep dive into OAuth 2.0 (Manning).
+- [Authorization in Action](https://www.manning.com/books/authorization-in-action) - Policy-based access control unifying RBAC, ABAC, and ReBAC with Cedar, from SaaS and APIs to AI agents (Manning).
 
 ## Contributing
 
