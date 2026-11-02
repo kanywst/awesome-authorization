@@ -31,6 +31,7 @@
 - [Open Policy Administration Layer (OPAL)](https://github.com/permitio/opal) - Keeps policies and data in sync across policy engines in real time.
 - [Pomerium](https://www.pomerium.com/) - Identity-aware reverse proxy that enforces context-aware authorization policies.
 - [Biscuit](https://www.biscuitsec.org/) - Capability-based authorization token format with Datalog policies, offline verification, and bearer-side attenuation.
+- [Speedle+](https://github.com/teramoby/speedle-plus) - Open-source authorization engine in Go with a human-readable policy language (SPDL). Supports RBAC and ABAC, with embedded or standalone deployment.
 
 ### Zanzibar-Based
 
