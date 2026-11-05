@@ -91,6 +91,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 ### Agent & AI Authorization
 
 - [MCP Authorization](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization) - OAuth 2.1-based authorization model in the Model Context Protocol. Defines how AI clients obtain and present tokens to MCP servers.
+- [AI Identity Management System (Draft)](https://datatracker.ietf.org/doc/html/draft-ietf-wimse-aims) - Best-practice framework for authenticating and authorizing AI agents by composing SPIFFE/WIMSE, OAuth, Transaction Tokens, and AuthZEN. Defines no new protocol. IETF WIMSE WG draft.
 
 ### Workload Identity
 
