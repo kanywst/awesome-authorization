@@ -75,7 +75,7 @@ export function parse(readme) {
       sec.groups.push(group);
       continue;
     }
-    if ((m = /^- (?:\[([^\]]+)\]\(([^)\s]+)\)|([^-[][^-]*?)) - (.+)$/.exec(line))) {
+    if ((m = /^- (?:\[([^\]]+)\]\(([^)\s]+)\)|([^[].*?)) - (.+)$/.exec(line))) {
       const [, linked, url, bare, desc] = m;
       const name = plain(linked ?? bare.trim());
       let host = '';
