@@ -47,6 +47,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper) - Kubernetes admission controller using OPA policies.
 - [Kyverno](https://kyverno.io/) - Kubernetes-native policy engine for validation, mutation, and generation.
 - [Kubewarden](https://www.kubewarden.io/) - Policy engine for Kubernetes using WebAssembly.
+- [Kubernetes ValidatingAdmissionPolicy](https://kubernetes.io/docs/reference/access-authn-authz/validating-admission-policy/) - Built-in Kubernetes admission policies written in CEL and evaluated in the API server, with no webhook. Stable since Kubernetes 1.30.
 
 ### Data Platforms
 
