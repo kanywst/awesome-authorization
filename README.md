@@ -47,7 +47,6 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [OPA Gatekeeper](https://github.com/open-policy-agent/gatekeeper) - Kubernetes admission controller using OPA policies.
 - [Kyverno](https://kyverno.io/) - Kubernetes-native policy engine for validation, mutation, and generation.
 - [Kubewarden](https://www.kubewarden.io/) - Policy engine for Kubernetes using WebAssembly.
-- [jsPolicy](https://www.jspolicy.com/) - Write Kubernetes policies in JavaScript/TypeScript.
 
 ### Data Platforms
 
