@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Actions are pinned by SHA. Let Dependabot bump the pins (and their version comments)
+  # instead of catching EOL runtimes like Node 20 by hand during audits.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7
+    groups:
+      actions:
+        patterns: ["*"]
