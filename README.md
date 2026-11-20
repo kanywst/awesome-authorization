@@ -111,7 +111,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [Cerbos Hub](https://www.cerbos.dev/product-cerbos-hub) - Managed Cerbos policy deployment and testing.
 - [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed Cedar-based authorization service by AWS.
 - [WorkOS FGA](https://workos.com/docs/fga) - Fine-grained authorization built on the Warrant engine.
-- [Axiomatics](https://www.axiomatics.com/) - Enterprise ABAC platform.
+- [Axiomatics](https://www.axiomatics.com/) - Enterprise ABAC platform. Acquired by Leonardo in 2025.
 - [PlainID](https://www.plainid.com/) - Policy-based access control for enterprises.
 
 ## Access Control Models
