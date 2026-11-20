@@ -67,7 +67,7 @@ Inspired by Google Zanzibar, Google's global authorization system built around r
 - [CanCanCan](https://github.com/coorasse/cancancan) - Ruby on Rails authorization. Define what users can and cannot do.
 - [CASL](https://casl.js.org/) - Isomorphic JavaScript/TypeScript authorization supporting ABAC.
 - [Authzed Client Libraries](https://github.com/authzed) - Official SpiceDB clients for Go, Python, Java, Ruby, and Node.js.
-- [django-rules](https://github.com/dfunckt/django-rules) - Object-level permissions for Django using composable predicates.
+- [django-guardian](https://github.com/django-guardian/django-guardian) - Per-object permissions for Django, stored in the database.
 - [Laravel Authorization](https://laravel.com/framework/docs/authorization) - Gates and policies for authorization in Laravel.
 
 ## Standards & Specifications
