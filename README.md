@@ -164,6 +164,7 @@ How companies do authorization at scale.
 - [MCP and Zero Trust: Securing AI Agents With Identity and Policy](https://www.cerbos.dev/blog/mcp-and-zero-trust-securing-ai-agents-with-identity-and-policy) - Applying authz to AI agents via MCP.
 - [Multi-Tenant Permissions Done Right](https://workos.com/blog/multi-tenant-permissions-slack-notion-linear) - Patterns extracted from how Slack, Notion, and Linear handle role explosion at scale.
 - [Cloudflare - Managed OAuth for Access](https://blog.cloudflare.com/managed-oauth-for-access/) - Uses RFCs 7591, 7636, and 9728 to make internal apps agent-ready with per-user attribution instead of shared service accounts, avoiding the confused deputy problem.
+- [MCP Auth vs Tool-Call Authorization After the 2026-07-28 Spec](https://www.permit.io/blog/mcp-auth-vs-tool-call-authorization-2026-07-28) - Covers MCP client authentication and authorization of each tool call as separate steps.
 
 ## Videos & Talks
 
